@@ -1,5 +1,5 @@
 body {
-    background-image: radial-gradient(circle at center, #CCDAE0, #EDF2F4);
+   background-image: radial-gradient(circle at center, #CCDAE0, #EDF2F4);
 }
  header {
     display: flex;
@@ -57,7 +57,7 @@ h3 {
     color: red;
   }
 
-  textarea {
+    textarea {
    height: 10em;
    width: 70em;
 }
