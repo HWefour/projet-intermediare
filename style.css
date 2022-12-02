@@ -56,3 +56,8 @@ h3 {
   span {
     color: red;
   }
+
+  textarea {
+   height: 10em;
+   width: 70em;
+}
