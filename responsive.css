@@ -1,6 +1,6 @@
-@media only screen and (max-width:400px){
+@media only screen and (min-width: 320px){
     body {
-        background-color: PURPLE;
+       
     }
 
     header {
@@ -10,7 +10,7 @@
      }
 
     h1 {
-        color: green;
+        color: purple;
         font-size: 20px;
         font-weight: bold;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -51,7 +51,7 @@
     
 }
 
-@media only screen and (max-width:800px){
+@media only screen and (min-width:768px){
     body {
         background-image: linear-gradient( to bottom left , green,
         purple);
@@ -98,5 +98,52 @@
         height: 10em;
         width: 40em;
     }
-
+        @media only screen and (min-width:1024px){
+            body {
+            background-image: linear-gradient( to bottom left , orange,
+            yellow);
+        }
+    
+            header {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+         }
+    
+            h1 {
+            color: green;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    
+            h3 {
+            color: #2B2D42;
+            font-size: 12px;
+            font-weight: bold;
+            text-decoration: underline dotted;
+        }
+    
+            ul {
+            list-style-type: none;
+            text-align: center;
+         }
+        
+         a:link {
+            color: green ;
+         }
+        
+         a:visited {
+            color: blue;
+         }
+        
+         a:hover {
+            color: white;
+         }
+    
+         textarea {
+            height: 10em;
+            width: 70em;
+        }
+    }
 }
